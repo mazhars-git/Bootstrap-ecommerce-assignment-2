@@ -13,39 +13,39 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
 
   <title>bootstrap-assignment-2</title>
-
 </head>
-
 <body>
   <!------------header-area-start------------->
-  <header class="header-area">
+  <header id="home" class="header-area">
     <!-------------nav-area-start------------>
-    <nav class="container navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand logo" href="#"><img src="logo/logo.png" alt=""></a>
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Product</a>
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Contact Us</a>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#"><img src="logo/Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav main-menu">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#product">Product</a>
+              <a class="nav-link" href="#about-us">About Us</a>
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!---------------nav-area-end------------------>
     <!---------------info-area-start------------------>
     <section class="info-section container mt-3">
       <div class="row d-flex align-items-center">
         <div class="col-md-6">
-          <h1 class="title-heading">BE THE PENGUINS</h1>
-          <h1 class="title-heading">OF WINTER</h1>
+          <h1 class="colored-h">BE THE PENGUINS</h1>
+          <h1>OF WINTER</h1>
           <p>Lorem ipsum dolor sit amet consectetur. <br> laboriosam fugiat quis temporibus.</p>
-          <button class="btn btn-warning">BY NOW</button>
+          <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>BY NOW</button>
         </div>
         <div class="col-md-6 info-image">
           <img src="images/Mask Group-2.png" alt="">
@@ -57,7 +57,7 @@
   <!------------main-area-start------------->
   <main class="mt-5">
     <!--------------woman-jacket-section-start---------------->
-    <section class="container woman-jacket">
+    <section id="product" class="container woman-jacket">
       <h2>Woman Jacket</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -68,11 +68,11 @@
             <div class="card-body">
               <h5 class="card-title">Yellow Coat Jacket</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+                content. </p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -86,8 +86,8 @@
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -99,11 +99,11 @@
             <div class="card-body">
               <h5 class="card-title">Woman Leather Jacket</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
+                content. </p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -120,13 +120,13 @@
               <img src="images/m-1.png" class="card-img-top img-thumbnail rounded" alt="">
             </div>
             <div class="card-body">
-              <h5 class="card-title">Yellow Coat Jacket</h5>
+              <h5 class="card-title">Snowboard Jacket Mens</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+                content. </p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -136,12 +136,13 @@
               <img src="images/m-3.png" class="card-img-top img-thumbnail rounded" alt="">
             </div>
             <div class="card-body">
-              <h5 class="card-title">Ladies Jacket</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Man Lather Jackets</h5>
+              <p class="card-text">This card has supporting below text below as a natural lead-in to additional content.
+              </p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -151,13 +152,13 @@
               <img src="images/m-2.png" class="card-img-top img-thumbnail rounded" alt="">
             </div>
             <div class="card-body">
-              <h5 class="card-title">Woman Leather Jacket</h5>
+              <h5 class="card-title">Man Casual Jackets</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
+                content.</p>
             </div>
             <div class="card-footer jacket-footer-card d-flex justify-content-between">
-              <h2>$220</h2>
-              <button class="btn btn-warning">Buy Now</button>
+              <h2 class="jacket-price">$220</h2>
+              <button class="btn btn-modify btn-warning"><i class="shop-icon fas fa-cart-plus"></i>Buy Now</button>
             </div>
           </div>
         </div>
@@ -165,13 +166,13 @@
     </section>
     <!-----------man-jacket-section-end------>
     <!-----------service-section-start------>
-    <section class="container services mt-5 p-5">
+    <section id="about-us" class="container services mt-5 p-5">
       <div class="row">
         <div class="col-md-5 d-flex align-items-center">
           <div class="row g-3">
             <div class="col-12">
-              <div class="p-3 border bg-light d-flex align-items-center">
-                <div class="service-image">
+              <div class="p-3 shadow bg-light d-flex align-items-center">
+                <div class="service-icon">
                   <img src="logo/image 12.png" alt="">
                 </div>
                 <div class="service-info">
@@ -181,8 +182,8 @@
               </div>
             </div>
             <div class="col-12">
-              <div class="p-3 border bg-light d-flex align-items-center">
-                <div class="service-image">
+              <div class="p-3 shadow bg-light d-flex align-items-center">
+                <div class="service-icon">
                   <img src="logo/image 13.png" alt="">
                 </div>
                 <div class="service-info">
@@ -192,8 +193,8 @@
               </div>
             </div>
             <div class="col-12">
-              <div class="p-3 border bg-light d-flex align-items-center">
-                <div class="service-image">
+              <div class="p-3 shadow bg-light d-flex align-items-center">
+                <div class="service-icon">
                   <img src="logo/image 14.png" alt="">
                 </div>
                 <div class="service-info">
@@ -204,45 +205,43 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 d-flex align-items-center">
-          <img class="img-thumbnail" src="logo/XMLID 1.png" alt="">
+        <div class="col-md-7 d-flex align-items-center g-4">
+          <img class="service-image img-thumbnail" src="logo/XMLID 1.png" alt="">
         </div>
       </div>
     </section>
     <!-----------service-section-end------>
     <!---------------contact-area-start---------->
-    <section class="contact-area p-5">
+    <section id="contact-us" class="contact-area p-5">
       <div class="container">
         <div class="row">
-              <div class="col-md-6 contact-info">
-                <h3 class="contact-heading">Contact Info</h3>
-                  <ul>
-                    <li><i class="icon fas fa-home"></i>Address: 75 street, Dhaka, Bangladesh</li>
-                    <li><i class="icon fas fa-phone-alt"></i>Phone: +009988755</li>
-                    <li><i class="icon far fa-envelope"></i>Email: penguins24@gmail.com</li>
-                  </ul>
-              </div>
-              <div class="col-md-6 newslatter-info">
-                <h3 class="contact-heading">Newsletter</h3>
-                <p>Get all the latest information on events, <br> sales and offers. Sign up for Newsletter today. </p>
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-warning">Go</button>
-              </div>
+          <div class="col-md-6 contact-info">
+            <h3 class="contact-heading">Contact Info</h3>
+            <ul>
+              <li><i class="icon fas fa-home"></i>Address: 75 street, Dhaka, Bangladesh</li>
+              <li><i class="icon fas fa-phone-alt"></i>Phone: +009988755</li>
+              <li><i class="icon far fa-envelope"></i>Email: penguins24@gmail.com</li>
+            </ul>
           </div>
+          <div class="col-md-6 newslatter-info">
+            <h3 class="contact-heading">Newsletter</h3>
+            <p>Get all the latest information on events, <br> sales and offers. Sign up for Newsletter today. </p>
+            <input type="text" placeholder="Email Address">
+            <button class="btn btn-modify btn-warning">Go</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
   <!------------main-area-end------------->
   <!------------footer-area-start------------->
   <footer>
-      <p>&copy;Penguin ecommerce. 2021. All Rights Reseved</p>
+    <p>&copy;Penguin ecommerce. 2021. All Rights Reseved</p>
   </footer>
-
   <!-- Bootstrap js file -->
   <script defer src="/js/all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
   </script>
-</body>
-
-</html>
+  </body>
+  </html>
