@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.title-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-area{
+    background-color: beige;
+    padding-bottom: 80px;
+}
+.logo img, .info-image img{
+    max-width: 80%;
+    height: auto;
+}
+.jacket-card{
+    border: 0;
+}
+.card-image{
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+}
+.jacket-card img{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(175, 172, 172);
+}
+.jacket-footer-card{
+    border: 0;
+    background-color: white;
+}
+.service-image img{
+    width: 70%;
+}
+.contact-icon i{
+    font-size: 250px;
+}
